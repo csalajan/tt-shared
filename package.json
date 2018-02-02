@@ -1,0 +1,24 @@
+{
+  "name": "tt-shared",
+  "version": "1.0.10",
+  "description": "Shared Components",
+  "main": "lib/tt-shared.js",
+  "scripts": {
+    "dev": "set WEBPACK_ENV=dev&&webpack --progress --colors --watch",
+    "build": "set WEBPACK_ENV=build&&webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.16.0",
+    "eslint-loader": "^1.9.0",
+    "react": "^16.2.0",
+    "webpack": "^3.10.0"
+  }
+}
